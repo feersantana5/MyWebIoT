@@ -1,0 +1,858 @@
+html{
+    background-color: oldlace;
+}
+
+.grafica{
+    position: relative;
+    margin: auto;
+    width: 30vw;
+    height: 30vh;
+}
+
+.graficas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.graficaGrande{
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+}
+
+#latGrafica{
+    width: 25em;
+    float: right;
+    margin-right: 1em;
+    border: 3px solid royalblue;
+    border-radius: 1.2em;
+    margin-top: 3em;
+}
+#latGrafica hgroup{
+    margin: 2em;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 56px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 56px 3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 56px 3px rgba(0,0,0,0.75);
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: darkblue;
+}
+
+
+#lateral {
+    width: 16em;
+    float: right;
+    margin-right: 1em;
+    border: 3px solid royalblue;
+    border-radius: 1.2em;
+    margin-top: 3em;
+}
+
+#lateral article{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+#lateral article h1{
+    text-align: left;
+    font-size: 1.3em;
+}
+#lateral article p{
+    text-align: left;
+    font-weight: bold;
+}
+
+.mainindex {
+    margin-right: 20em;
+    margin-top: 3em;
+}
+
+.articulo {
+    border: 5px solid royalblue;
+    border-radius: 1.2em;
+    padding: 7px;
+    margin-bottom: 1em;
+}
+article h1,p{
+    margin-left: 1em;
+}
+
+.articulo h1 {
+    color: black;
+    font-size: 1.5em;
+}
+
+.boton{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 120px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.boton:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+#botoncentro{
+    margin-left: 50%;
+}
+
+
+.maincentrado{
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.encabezado{
+    background-color: cornflowerblue;
+    text-align: center;
+
+}
+.encabezado p{
+    color: white;
+    font-size: 25px;
+}
+
+#piedepagina {
+    margin-top: 2em;
+    text-align: center;
+    background-color: royalblue;
+    font-family: "Comic Sans MS";
+    padding: 2px;
+    float: bottom;
+}
+#piedepagina a{
+    color: white;
+}
+#piedepagina a:hover{
+    color: deepskyblue;
+}
+
+#navnumeros{
+    text-align: center;
+    font-size: 25px;
+}
+.navcanales{
+    display: inline;
+    margin: 5px;
+}
+.navcanales a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navcanales a:hover {
+    background-color: darkgrey;
+}
+
+#contacto{
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    border-color: darkgrey;
+    border-style: solid;
+    text-align: center;
+    height: 100%;
+}
+
+.infoContacto{
+    -webkit-box-shadow: 10px 10px 56px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 56px 3px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 56px 3px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+
+span{
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: #ee6e7d;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 1em;
+}
+
+span h1{
+    font-size: 25px;
+    padding: 0;
+    margin: 1px;
+}
+
+span p{
+    font-weight: bold;
+    margin: 13px;
+}
+
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+    resize: none;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    padding: 6px;
+    font-family: Arial;
+}
+input[type=submit]:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+input[type=reset]:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+input[type=submit]{
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    cursor: pointer;
+    width: 50%;
+
+}
+input[type=reset]{
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: darkred;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    cursor: pointer;
+    margin-bottom: 1em;
+    float: right;
+}
+
+fieldset{
+    border-radius: 6px;
+    border-width: 3px;
+    border-style: solid;
+}
+legend{
+    font-size: 16px;
+}
+summary{
+    font-weight: bold;
+    color: SteelBlue;
+    font-size: 16px;
+    cursor: pointer;
+}
+details{
+    border:solid gray;
+    padding: 5px;
+    font-family: Arial;
+    width:100%;
+    background-color: white;
+}
+details p{
+    text-align: justify;
+}
+
+.basura{
+    float: right;
+    background: none;
+    border: none;
+    padding: 1px 1px 1px 1px;
+    cursor: pointer;
+}
+
+.carrito {
+    background: none;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+#shop{
+padding: 0.5em 0em 0em 0.5em;
+    text-align: center;
+}
+
+
+
+#miCarrito{
+    border-radius: 50%;
+    background: yellow;
+    border: 3px solid #000;
+    text-align: center;
+    font: 23px Arial, sans-serif;
+    color: #000;
+
+    width: 15px;
+    height: 16px;
+    padding: 8px;
+}
+
+
+#checkout{
+    background: none;
+    border: none;
+    outline:none;
+}
+
+
+#vertical{
+    float: left;
+    width: 10em;
+    margin-top: 3em;
+}
+
+#vertical ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+#vertical li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none
+}
+
+#vertical li a.active {
+    background-color: royalblue;
+    color: white;
+}
+#vertical li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.mainshop{
+    margin-top: 3em;
+    margin-left: 16em;
+    margin-right: 2em;
+}
+
+.botonAddTienda{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.botonAddTienda:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+#productos{
+    height: auto;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 2em;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card input {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+#adminLista{
+    text-align: center;
+    position: center;
+
+}
+
+#productoAdmin {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width: 100%;
+    margin: 2em;
+}
+
+#productoAdmin td, #productoAdmin th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#productoAdmin tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#productoAdmin tr:hover {
+    background-color: #ddd;
+}
+
+#productoAdmin th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+}
+#productoAdmin table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+
+.paginate a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+
+.paginate a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#back{
+    display: flex;
+    padding-bottom: 0.5em;
+    width: 100%;
+    float: left;
+}
+
+
+
+
+.wrapper {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+}
+
+.product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+
+.product-text {
+    height: 300px;
+    width: 327px;
+}
+
+.product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747;
+}
+
+.product-text h1,
+.product-price-btn p {
+    font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.product-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: -13px;
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+}
+
+.product-price-btn div {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+}
+
+.product-price-btn button {
+    float: right;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+}
+
+.product-price-btn button:hover {
+    background-color: #79b0a1;
+}
+
+#izq{
+    width: 25%;
+    float: left;
+}
+
+#derecha{
+    width: 75%;
+    float: right;
+}
+
+#iniSocial{
+    margin-top: 3em;
+}
+#izqSocial{
+    float: left;
+    width: 33%;
+    height: auto;
+
+}
+
+#derechaSocial{
+    width: 66%;
+    float: right;
+
+}
+
+#ultSocial{
+    clear: both;
+}
+
+.columna50{
+    width: 49%;
+    display: inline-block;
+}
+
+
+
+#btnFollow{
+    background-color: deepskyblue;
+    width: max-content;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#btnUnfollow{
+    background-color: #ea4534;
+    width: max-content;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.btnSocial{
+    background-color: deepskyblue;
+    width: max-content;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnSocial:hover{
+    opacity: 0.6;
+
+}
+
+.btn2{
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.btn2 button{
+    margin-top: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.btn3{
+    display: block;
+    text-align: center;
+}
+.btn3 button{
+    background-color: orangered;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 2em;
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+
+.col-25, col-75{
+    padding: 0 16px;
+}
+.col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+
+.col-25 .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.col-25 input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.col-25 a {
+    color: #2196F3;
+}
+
+.col-25 i {
+    float: right;
+}
+.money{
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+    color: gray;
+
+}
+
+.producto{
+    display: inline-block;
+}
+
+
+p.price {
+    color: grey;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+#total{
+    font-weight: bold;
+    color: black;
+}
+
+#miCarrito2{
+    display: inline-block;
+}
+
+#carform{
+    width: 100%;
+background-color: indianred;
+}
+
+#carform2{
+    width: 100%;
+}
+
+.form50{
+   float: right;
+}
+
+.ventanaExito{
+    padding: 20px;
+    background-color: #11d432;
+    color: white;
+}
+.ventanaDanger{
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: black;
+}
